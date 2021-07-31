@@ -1,0 +1,5 @@
+# ninja log v5
+0	995	1627732298169002538	.smake/.test/objs/test.cpp.o	ef112f913116e758
+3	986	1627732469517693337	.smake/.test/objs/test.cpp.o	1c7ff9fbbeabe842
+4	2430	1627732470960838979	.smake/.test/objs/Users/yu/Projects/kuyoonjo/smake-lib-simdjson/simdjson/singleheader/simdjson.cpp.o	ffcecd0dc860df59
+2431	2494	1627732471027572372	.smake/test	92df6faa5b9d0f7c
