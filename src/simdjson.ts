@@ -1,14 +1,11 @@
-import { sep, resolve } from 'path';
+import { resolve } from 'path';
 import { LLVM } from 'smake';
 
 export function simdjson(t: LLVM) {
   Object.defineProperty(t, 'sysIncludedirs', {
     value: [
       ...t.sysIncludedirs,
-      resolve(__dirname, '..', 'simdjson', 'singleheader').replace(
-        new RegExp(sep, 'g'),
-        '/'
-      ),
+      resolve(__dirname, '..', 'simdjson', 'singleheader').replace(/\\/g, '/'),
     ],
     configurable: true,
   });
@@ -21,7 +18,7 @@ export function simdjson(t: LLVM) {
         'simdjson',
         'singleheader',
         'simdjson.cpp'
-      ).replace(new RegExp(sep, 'g'), '/'),
+      ).replace(/\\/g, '/'),
     ],
     configurable: true,
   });
