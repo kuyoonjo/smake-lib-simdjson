@@ -1,1 +1,1 @@
-export * from './simdjson';
+export * from './LibSimdjson';

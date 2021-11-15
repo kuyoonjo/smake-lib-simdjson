@@ -1,17 +1,9 @@
-const { LLVM_Darwin } = require('smake');
-const { addLibs } = require('@smake/libs');
-const { simdjson } = require('./lib');
+const { LLVM } = require('smake');
+const { LibSimdjson } = require('./lib');
 
-class test extends LLVM_Darwin {
-  files = ['test.cpp'];
-  cxxflags = [
-    ...super.cxxflags,
-    '-std=c++17',
-  ];
-}
+const simdjson = new LibSimdjson('x86_64-linux-gnu');
+const test = new LLVM('test', 'x86_64-linux-gnu');
+test.files = ['test.cpp'];
+LibSimdjson.config(test);
 
-test = addLibs(test, simdjson);
-
-module.exports = { 
-  targets: [test],
-};
+module.exports = [simdjson, test];

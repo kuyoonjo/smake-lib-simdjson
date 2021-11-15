@@ -3,3 +3,16 @@
 3	986	1627732469517693337	.smake/.test/objs/test.cpp.o	1c7ff9fbbeabe842
 4	2430	1627732470960838979	.smake/.test/objs/Users/yu/Projects/kuyoonjo/smake-lib-simdjson/simdjson/singleheader/simdjson.cpp.o	ffcecd0dc860df59
 2431	2494	1627732471027572372	.smake/test	92df6faa5b9d0f7c
+0	2506	1637000548949884995	.smake/.simdjson-x86_64-linux-gnu/objs/home/yu/Projects/kuyoonjo/smake-lib-simdjson/simdjson/singleheader/simdjson.cpp.o	a54b0475ae2d7beb
+2506	2518	1637000548969885129	.smake/simdjson/release/x86_64-linux-gnu/libsimdjson.a	11618c3ead5c6046
+1	2473	1637000638357149034	.smake/.simdjson-x86_64-linux-gnu/objs/home/yu/Projects/kuyoonjo/smake-lib-simdjson/simdjson/singleheader/simdjson.cpp.o	a54b0475ae2d7beb
+2473	2484	1637000638373815813	.smake/simdjson/release/x86_64-linux-gnu/libsimdjson.a	11618c3ead5c6046
+1	1093	1637000639467156483	.smake/.test-x86_64-linux-gnu/objs/test.cpp.o	52cd74c879e6d26a
+1093	1125	1637000639503823396	.smake/test/release/x86_64-linux-gnu/test	13d8faf348f92830
+1	11	1637000822815062437	.smake/simdjson/release/x86_64-linux-gnu/libsimdjson.a	11618c3ead5c6046
+0	1104	1637000823918403276	.smake/.test-x86_64-linux-gnu/objs/test.cpp.o	52cd74c879e6d26a
+1104	1135	1637000823955070192	.smake/test/release/x86_64-linux-gnu/test	13d8faf348f92830
+0	1101	1637000827818429811	.smake/.test-x86_64-linux-gnu/objs/test.cpp.o	52cd74c879e6d26a
+1101	1132	1637000827851763371	.smake/test/release/x86_64-linux-gnu/test	13d8faf348f92830
+0	1116	1637000833401801144	.smake/.test-x86_64-linux-gnu/objs/test.cpp.o	52cd74c879e6d26a
+1117	1147	1637000833435134704	.smake/test/release/x86_64-linux-gnu/test	13d8faf348f92830
